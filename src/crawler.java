@@ -15,15 +15,14 @@ public class crawler {
 	 * @throws InvalidKeyException
 	 * @throws InterruptedException
 	 */
-	public static void main(String[] args) throws IOException, ParseException,
-			ClassNotFoundException, SQLException, InvalidKeyException,
-			NoSuchAlgorithmException, InterruptedException {
+	public static void main(String[] args) throws IOException, ParseException, ClassNotFoundException, SQLException,
+			InvalidKeyException, NoSuchAlgorithmException, InterruptedException {
 
-		//example: write all reviews for an item (defined by its ASIN) to a SQLite database
+		// example: write all reviews for an item (defined by its ASIN) to a
+		// SQLite database
 		Item an_item = new Item("B00OLT7QSU");
 		an_item.fetchReview();
-		an_item.writeReviewsToDatabase("reviewtest.db", false);
-
+		System.out.println(an_item.getReviews());
 	}
 
 }
