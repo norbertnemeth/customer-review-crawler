@@ -62,7 +62,8 @@ public class Item {
 
         while(retry <= max_retry){
             try {
-                content = Jsoup.connect(url).timeout(10 * 1000).get();
+            	System.out.println("GET: " + url);
+                content = Jsoup.connect(url).timeout(30000).userAgent("Mozilla/17.0").get();
                 break;
             } catch (Exception ex){
                 //wait before retry
