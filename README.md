@@ -1,7 +1,7 @@
 customer-review-crawler - pure
 ===============================
 
-A crawler to collect reviews and product infomation on Amazon.com.
+A crawler to collect reviews infomation on Amazon.com.
 
 # Quick Start Guide
 
