@@ -3,6 +3,8 @@ customer-review-crawler - pure
 
 A crawler to collect reviews infomation on Amazon.com.
 
+Alternative way: [amazonAPI](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/EX_RetrievingCustomerReviews.html)
+
 # Quick Start Guide
 
 
